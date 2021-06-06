@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'Task1.dart';
 import 'Task2.dart';
+import 'Task3.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Task1(),
+      home: Task3(),
     );
   }
 }
